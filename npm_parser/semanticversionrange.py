@@ -217,6 +217,8 @@ class SemanticVersionComparatorFacade():
 
             v2 = "{}.{}.{}".format(major, minor, patch)
 
+            comparator['ver_num2'] = v2
+
             if comp1 is None:
                 comp1 = SemanticVersionComparator(
                     {"operator": ">=", "version": comparator['ver_num1'], "pre_release": comparator['pre1'],
