@@ -11,3 +11,7 @@ This procedure should install two required libraries, namely kids.cache and pars
 3) To test the version range parser, please run:
 
    $ python3 versionrangeparser.py
+   
+4) To cite this parser, please use the following reference:
+
+Cogo, F. R., Oliva, G. A., & Hassan, A. E. (in press). An Empirical Study of Dependency Downgrades in the npm Ecosystem. _IEEE Transactions on Software Engineering_. doi: 10.1109/TSE.2019.2952130.
